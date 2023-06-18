@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	display: block;
+	justify-content: center;
+}
+
+.del-btn {
+	padding: 4px;
+	border: none;
+	margin: 5px;
+	background-color: rgb(138, 9, 9);
+	color: white;
+	border-radius: 10px;
+}
+
+.del-btn:hover {
+	background-color: black;
+}
+
+.file-container {
+	display: flex;
+	justify-content: center;
+	width: fit-content;
+	margin: auto;
+	padding: 15px;
+}
+
+.file-list {
+	font-size: 0.8rem;
+	list-style-type: none;
+}
+
+h1 {
+	border: 1px dotted black;
+	padding: 7px;
+}
+
+h1,
+h3 {
+	text-align: center;
+}
+
+h3 {
+	text-decoration: underline;
+}
+
+.img-trash {
+	width: 0px;
+	height: 10px;
+}
+
+html {
+	font-size: 16px;
+}
+
+.select-div,
+.upload-div {
+	border: 1px solid gray;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+.sort {
+	font-size: 0.9rem;
+	margin-bottom: 6px;
+}
+
+.sort-div {
+	display: flex;
+	justify-content: center;
+	width: fit-content;
+	margin: auto;
+}
+
+.sort-radio {
+	font-size: 0.8rem;
+}
+
+@media screen and (min-width: 600px) {
+	.container {
+		display: flex;
+		justify-content: center;
+	}
+
+	.upload-div {
+		width: 300px;
+	}
+}

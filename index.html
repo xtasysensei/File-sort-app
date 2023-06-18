@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<h1>Sortify</h1>
+		<br />
+
+		<div class="container">
+			<div class="select-div">
+				<p class="text">Choose file to upload:</p>
+				<br />
+
+				<input class="select" type="file" name="" id="" />
+			</div>
+
+			<div class="upload-div">
+				<p class="text">
+					Click to upload
+					<span
+						><button class="upload" type="submit">
+							Upload file
+						</button></span
+					>
+				</p>
+			</div>
+			<br />
+		</div>
+
+		<h3>Uploaded files</h3>
+
+		<br />
+		<div class="sort-div">
+			<strong><p class="sort">sort by:</p></strong>
+			<span class="sort-radio">
+				<label for="">Name</label
+				><input class="name-radio" type="radio" name="radio" />
+				<label for="">Size</label
+				><input class="size-radio" type="radio" name="radio" />
+				<label for="">Date</label
+				><input class="date-radio" type="radio" name="radio" />
+			</span>
+		</div>
+		<br />
+
+		<div class="file-container">
+			<ul class="file-list"></ul>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
